@@ -1,0 +1,41 @@
+{
+  "name": "unity-color-picker",
+  "displayName": "Unity Color Picker",
+  "description": "A simple tool that adds the Visual Studio Code color picker to recognize Unity Color values and give the ability to pick a color easier from inside of C# code.",
+  "version": "0.0.1",
+  "publisher": "BananaDev2000",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BananaDev2000/unity-color-picker.git"
+  },
+  "license": "MPL-2.0",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:csharp"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.120.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "typescript-eslint": "^8.56.1",
+    "eslint": "^9.39.3",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
