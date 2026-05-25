@@ -1,4 +1,4 @@
-# Unity Color Picker for VS Code
+# Unity Colors Picker for VS Code
 
 Adds proper color picker support for Unity `Color`, `Color32`, named colors, and Unity HTML hex colors directly inside C# scripts.
 This tool was made using AI, please feel free to correct or clean up anything you want :)
