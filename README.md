@@ -57,7 +57,7 @@ ColorUtility.TryParseHtmlString("#FF9900", out Color color);
 Install directly from the VS Code Marketplace.
 
 Or manually install the `.vsix` package:
-Download the latest `.vsix` package under releases here.
+Download the latest `.vsix` package under releases [here](https://github.com/BananaDev2000/unity-color-picker/releases).
 1. Open Extensions
 2. Click `...`
 3. Select `Install from VSIX...`
