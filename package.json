@@ -2,8 +2,9 @@
   "name": "unity-colors-picker",
   "displayName": "Unity Colors Picker",
   "description": "A simple tool that adds the Visual Studio Code color picker to recognize Unity Color values and give the ability to pick a color easier from inside of C# code.",
-  "version": "0.0.1",
+  "version": "0.0.12",
   "publisher": "BananaDev2000",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/BananaDev2000/unity-color-picker.git"
